@@ -87,7 +87,7 @@ export default function Home() {
 
         )
       }else if(loading) {
-        return <button classname= {styles.button}>Loading...</button>
+        return <button className= {styles.button}>Loading...</button>
       }
       else {
         return (
